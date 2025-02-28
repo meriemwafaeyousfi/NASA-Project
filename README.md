@@ -155,8 +155,8 @@ The application uses the following APIs:
 * NASA Mars Rover photos API: https://api.nasa.gov/mars-photos
 * InSight: Mars Weather Service API: https://api.nasa.gov/insight_weather
 
-📜 License
-This project is open-source and available under the MIT License.
+📜 ### License
+This project is under the MIT License.
 
 🚀 Made with ❤️ by YOUSFI Meriem Wafaê
 ---
