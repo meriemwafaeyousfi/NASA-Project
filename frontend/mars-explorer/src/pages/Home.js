@@ -100,8 +100,7 @@ function Home() {
       </div>
       <div className="flex flex-column relative lg:fixed bottom-0 col-12  pl-6 pb-4 z-4">
         <p className="description">
-          Get real-time temperature, wind, and pressure data from NASA’s InSight
-          lander on Mars
+        Per-Sol summary data on temperature, wind, and atmospheric pressure from NASA’s InSight lander at Elysium Planitia.
         </p>
         <div className="flex flex-wrap lg:flex-nowrap justify-center items-center w-full  gap-4 ">
           {loading ? (

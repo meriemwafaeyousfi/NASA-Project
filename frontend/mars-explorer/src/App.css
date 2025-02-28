@@ -69,7 +69,7 @@ body {
 
 .planet {
   z-index: 2;
-  background-image: url("./assets/MARS.png");
+  background-image: url("../public/assets/MARS.png");
   right: 0;
   width: 100%;
   height: 85vh;
@@ -96,7 +96,7 @@ body {
 
 .stars-cloud {
   z-index: 1;
-  background-image: url("./assets/stars_cloud2.png");
+  background-image: url("../public/assets/stars_cloud2.png");
   /* position: absolute; */
   width: 100%;
   height: 100%;
@@ -150,7 +150,7 @@ body {
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  background-image: url("./assets/rover.png");
+  /* background-image: url("../public/assets/rover.png"); */
 }
 
 .rover-0 {

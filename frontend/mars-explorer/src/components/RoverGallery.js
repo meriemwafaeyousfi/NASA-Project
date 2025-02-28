@@ -5,8 +5,8 @@ import "../App.css";
 import PhotoService from "../services/PhotosService";
 import { Skeleton } from "primereact/skeleton";
 import { Paginator } from "primereact/paginator";
-import errorAnimation from "../assets/images-not-found.json";
 import Lottie from "lottie-react";
+import errorAnimation from "..//assets/images-not-found.json"; 
 
 /**
  * A component that displays a gallery of images taken by a Mars rover.
@@ -30,11 +30,7 @@ export default function RoverGallery({
   const galleria = useRef(null);
   const limit = 20;
 
-  const [first, setFirst] = useState(0);
-
-  const onPageChange = (event) => {
-    setFirst(event.first);
-  };
+ 
   const fetchImages = async () => {
     setLoading(true);
     setErrorOccured(false);

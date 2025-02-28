@@ -2,7 +2,6 @@ import React from "react";
 import { Menubar } from "primereact/menubar";
 import { useNavigate } from "react-router-dom";
 import "../App.css";
-import imglogo from "../assets/logo.png"
 import { rovers } from "../data/data";
 
   /**
@@ -34,7 +33,7 @@ const Navbar = () => {
 
   const logo = (
     <img
-      src={imglogo}  
+    src={`${process.env.PUBLIC_URL}/assets/logo.png`}
       alt="Logo"
       className="h-4 w-8" 
     />
