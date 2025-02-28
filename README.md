@@ -24,31 +24,43 @@ A full-stack web application that provides interactive access to Mars exploratio
 🔗 **Live Demo:** https://nasa-project-2-48mr.onrender.com/
 
 ## 📂 Project Structure
-/Nasa-project 
-│── /frontend # React app 
-│ ├── /mars-explorer
-│ │ ├── /public # Static assets (images, animations, etc.) 
-│ │ ├── /src  
-│ │ │ ├── /assets # App images and animations 
-│ │ │ ├── /components # components 
-│ │ │ ├── /pages # page-level components
-│ │ │ ├── /services # API requests and data processing.
-│ │ │ ├── /data # data files 
-│ │ │ ├── /utils # utility functions 
-│ │ │ ├── App.js 
-│ │ │ ├── App.css 
-│── /backend # Node.js API 
-│ ├── nasa-apis 
-│ │ ├── server.js # Express server 
-│ │ ├── /routes # API routes 
-│ │ ├── /controllers # Business logic 
-│ │ ├── /services # API services 
+**Project Structure**
+```bash
+/Nasa-project
+│── /frontend
+│   │── /mars-explorer
+│   │   │── /public
+│   │   │   │── # Static assets (images, animations, etc.)
+│   │   │── /src
+│   │   │   │── /assets
+│   │   │   │   │── # App images and animations
+│   │   │   │── /components
+│   │   │   │   │── # components
+│   │   │   │── /pages
+│   │   │   │   │── # page-level components
+│   │   │   │── /services
+│   │   │   │   │── # API requests and data processing
+│   │   │   │── /data
+│   │   │   │   │── # data files
+│   │   │   │── /utils
+│   │   │   │   │── # utility functions
+│   │   │   │── App.js
+│   │   │   │── App.css
+│── /backend
+│   │── nasa-apis
+│   │   │── server.js
+│   │   │── /routes
+│   │   │   │── # API routes
+│   │   │── /controllers
+│   │   │   │── # Business logic
+│   │   │── /services
+│   │   │   │── # API services
 │── README.md
-
+```
 
 ## 🪐 Frontend 
 
-## Installation
+### Installation
 
 To install the frontend, follow these steps:
 
@@ -58,7 +70,7 @@ To install the frontend, follow these steps:
 4. Start the development server using `npm start`.
 5. The development server will start on port 3000, and you can access the application using `http://localhost:3000`.
 
-Components
+### Components
 ------------
 
 The application consists of the following components:
@@ -72,7 +84,7 @@ The application consists of the following components:
 * `Background.js`: The background component
 * `Hero.js`: The hero component
 
-Services
+### Services
 ---------
 
 The application uses the following services:
@@ -81,14 +93,14 @@ The application uses the following services:
 * `PhotosService.js`: The mars rovers photos service
 * `WeatherService.js`: The weather service
 
-Utilities
+### Utilities
 ------------
 
 The application uses the following utilities:
 
 * `date_utils.js`: The date utility
 
-Data
+### Data
 ------
 
 The application uses the following data:
@@ -97,7 +109,7 @@ The application uses the following data:
 * `cameras.json`: The camera types data
 * `solRanges.json`: The sol range data
 
-Environment Variables
+### Environment Variables
 ------
 
 The frontend uses the following environment variables:
@@ -106,11 +118,11 @@ The frontend uses the following environment variables:
 
 
 
-## 🛠️ Mars Rovers Backend
+## 🛠️ Backend
 
 This is the backend for the Mars Rovers application, built using Node.js and Express.js.
 
-## Installation
+### Installation
 
 To install the backend, follow these steps:
 
@@ -120,21 +132,21 @@ To install the backend, follow these steps:
 4. Start the server using `npm start`.
 5. The server will start on port 3000, and you can access the API endpoints using `http://localhost:3000`.
 
-## API Endpoints
+### API Endpoints
 
 The backend provides the following API endpoints:
 
 * `GET /mars-photos`: Retrieves a list of Mars photos from the NASA API.
 * `GET /mars-weather`: Retrieves the current weather on Mars from the NASA API.
 
-## Environment Variables
+### Environment Variables
 
 The backend uses the following environment variables:
 
 * `NASA_API_KEY`: Your NASA API key.
 * `REACT_APP_API_URL`: The URL of the backend API.
 
-API Documentation
+## API Documentation
 -----------------
 
 The application uses the following APIs:
