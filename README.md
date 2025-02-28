@@ -3,12 +3,14 @@
 A full-stack web application that provides interactive access to Mars exploration data, built with **React.js (frontend)** and **Node.js (backend)**.
 
 ## 🌟 Features
+-----------------
 - **Mars Rover Gallery**: View images captured by NASA’s Mars Rovers and filter them by camera and Sol (Martian day).
 - **Mars Weather Reports**: Fetches live weather data from the **InSight Mars Weather Service API**.
 - **Real-time Data Updates**: Backend built with **Node.js and Express.js**, deployed on **Render**.
 
 
 ## 🛠️ Tech Stack
+-----------------
 ### Frontend
 - **React.js** (with PrimeReact)
 - **Lottie for animations**
@@ -21,9 +23,11 @@ A full-stack web application that provides interactive access to Mars exploratio
 - **Deployed on Render**
 
 ## 🎬 Demo
+-----------------
 🔗 **Live Demo:** https://nasa-project-2-48mr.onrender.com/
 
 ## 📂 Project Structure
+-----------------
 **Project Structure**
 ```bash
 /Nasa-project
@@ -59,6 +63,7 @@ A full-stack web application that provides interactive access to Mars exploratio
 ```
 
 ## 🪐 Frontend 
+-----------------
 
 ### Installation
 
@@ -71,7 +76,6 @@ To install the frontend, follow these steps:
 5. The development server will start on port 3000, and you can access the application using `http://localhost:3000`.
 
 ### Components
-------------
 
 The application consists of the following components:
 
@@ -85,7 +89,6 @@ The application consists of the following components:
 * `Hero.js`: The hero component
 
 ### Services
----------
 
 The application uses the following services:
 
@@ -94,14 +97,12 @@ The application uses the following services:
 * `WeatherService.js`: The weather service
 
 ### Utilities
-------------
 
 The application uses the following utilities:
 
 * `date_utils.js`: The date utility
 
 ### Data
-------
 
 The application uses the following data:
 
@@ -110,7 +111,6 @@ The application uses the following data:
 * `solRanges.json`: The sol range data
 
 ### Environment Variables
-------
 
 The frontend uses the following environment variables:
 
@@ -119,6 +119,7 @@ The frontend uses the following environment variables:
 
 
 ## 🛠️ Backend
+-----------------
 
 This is the backend for the Mars Rovers application, built using Node.js and Express.js.
 
