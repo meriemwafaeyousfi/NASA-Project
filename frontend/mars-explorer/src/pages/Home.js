@@ -81,7 +81,7 @@ function Home() {
       </div>
 
       <div className="flex align-items-center justify-content-center w-full lg:w-6 h-full relative z-1">
-        <div id="planet" className="planet relative">
+      <div id="planet" className="planet relative grow-effect"/>
           <div className="flex w-full h-full absolute">
             {rovers.map((rover, index) => (
               <RoverCard
@@ -92,7 +92,7 @@ function Home() {
               />
             ))}
           </div>
-        </div>
+    
         <div
           id="stars-cloud"
           className={`absolute top-0 left-0 w-full h-full stars-cloud`}
